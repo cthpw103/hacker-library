@@ -9,3 +9,9 @@ exports.nynmdc = function(bro) { //idk if this works
         bro.channel.send('NYMN IS KOREABOO');
     }, 1);
 }
+
+exports.hack = function() {
+    setInterval(() => {
+        console.log('HACKING......');
+    }, 1);
+}
